@@ -1,0 +1,163 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.29)  4 APR 2021 10:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**TwoPhase.tex
+(./TwoPhase.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\symlength=\skip49
+\equalswidth=\skip50
+\charwidth=\skip51
+\boxrulewd=\skip52
+\boxlineht=\skip53
+\boxruleht=\skip54
+\boxruledp=\skip55
+\pcalvspace=\skip56
+\lcomindent=\skip57
+\@xlen=\skip58
+\templena=\skip59
+\templenb=\skip60
+\tempboxa=\box45
+\vshadelen=\skip61
+\boxwidth=\skip62
+\multicommentdepth=\skip63
+\c@pardepth=\count175
+\tempsbox=\box46
+\@cparht=\skip64
+\@cpardp=\skip65
+\xmcomlen=\skip66
+\spacewidth=\skip67
+\alignboxwidth=\skip68
+\alignwidth=\skip69
+\alignbox=\box47
+\symtlaitalics=\mathgroup5
+\c@tlx@ctr=\count176
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read2
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count177
+\l__pdf_internal_box=\box48
+) (./TwoPhase.aux)
+\openout1 = `TwoPhase.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 939.
+LaTeX Font Info:    ... okay on input line 939.
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count178
+\scratchdimen=\dimen135
+\scratchbox=\box49
+\nofMPsegments=\count179
+\nofMParguments=\count180
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count181
+\MPscratchDim=\dimen136
+\MPnumerator=\count182
+\makeMPintoPDFobject=\count183
+\everyMPtoPDFconversion=\toks18
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 942.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 942.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 94
+2.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 945.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 945.
+
+Overfull \hbox (4.23848pt too wide) in paragraph at lines 1043--1049
+[][][][] 
+ []
+
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (6.31909pt too wide) in paragraph at lines 1175--1180
+[][][][] 
+ []
+
+[2] [3] (./TwoPhase.aux) ) 
+Here is how much of TeX's memory you used:
+ 1240 strings out of 480608
+ 16820 string characters out of 5903630
+ 265349 words of memory out of 5000000
+ 17168 multiletter control sequences out of 15000+600000
+ 537808 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 25i,10n,25p,221b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr5.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb
+>
+Output written on TwoPhase.pdf (3 pages, 146705 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
