@@ -64,22 +64,22 @@ TMRecvPrepared(r) ==   \* The TM receives a "Prepared" message from resource man
 
 TMCommit == \* The TM commits the transaction
   /\ tmState = "init"
-  /\ tmState' = "done"                      \* TM state transitions
-  /\ tmPrepared = RM                        \* TM sees all RMs as prepared
-  /\ rmState = [r \in RM |-> "prepared"]    \* All RMs are prepared (nececessary?)
-  /\ msgs'= msgs \cup {[type |-> "Commit"]} \* Send the Commit message
+  /\ tmState' = "done"                        \* TM state transitions
+  /\ tmPrepared = RM                          \* TM sees all RMs as prepared
+  /\ rmState = [r \in RM |-> "prepared"]      \* All RMs are prepared (nececessary?)
+  /\ msgs'= msgs \union {[type |-> "Commit"]} \* Send the Commit message
   /\ UNCHANGED <<rmState, tmPrepared>>
 
 TMAbort == \* The TM spontaneously aborts the transaction
-  /\ tmState = "init" /\ tmState' = "done" \* TM state transitions
-  /\ msgs'= msgs \cup {[type |-> "Abort"]} \* Send the Abort message
+  /\ tmState = "init" /\ tmState' = "done"   \* TM state transitions
+  /\ msgs'= msgs \union {[type |-> "Abort"]} \* Send the Abort message
   /\ UNCHANGED <<rmState, tmPrepared>>
   
 -----------------------------------------------------------------------------
 
 RMPrepare(r) == /\ rmState[r] = "working"
                 /\ rmState' = [rmState EXCEPT ![r] = "prepared"]
-                /\ msgs' = msgs \cup {[type |-> "Prepared", rm |-> r]}
+                /\ msgs' = msgs \union {[type |-> "Prepared", rm |-> r]}
                 /\ UNCHANGED <<tmState, tmPrepared>>
 
 (********************************************)
@@ -116,5 +116,5 @@ TPNext == \/ TMCommit              \* The transaction is committed by the TM.
 
 =============================================================================
 \* Modification History
-\* Last modified Sun Apr 04 09:47:23 BRT 2021 by felipec
+\* Last modified Sun Apr 04 10:00:30 BRT 2021 by felipec
 \* Created Sat Apr 03 15:07:14 BRT 2021 by felipec
