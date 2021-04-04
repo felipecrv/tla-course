@@ -66,7 +66,7 @@ TMCommit == \* The TM commits the transaction
   /\ tmState = "init"
   /\ tmState' = "done"                      \* TM state transitions
   /\ tmPrepared = RM                        \* TM sees all RMs as prepared
-  /\ rmState = [RM -> {"prepared"}]         \* All RMs are prepared (nececessary?)
+  /\ rmState = [r \in RM |-> "prepared"]    \* All RMs are prepared (nececessary?)
   /\ msgs'= msgs \cup {[type |-> "Commit"]} \* Send the Commit message
   /\ UNCHANGED <<rmState, tmPrepared>>
 
