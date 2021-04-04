@@ -86,7 +86,7 @@ RMPrepare(r) == /\ rmState[r] = "working"
 (* RM spontaneously chooses to abort.       *)
 (* No message sent in our simplified model. *)
 (********************************************)
-RMChooseToAbort(r) == /\ rmState[r] = "abort"
+RMChooseToAbort(r) == /\ rmState[r] = "aborted"
                       /\ rmState' = [rmState EXCEPT ![r] = "aborted"]
                       /\ UNCHANGED <<tmState, tmPrepared, msgs>>
 
@@ -116,5 +116,5 @@ TPNext == \/ TMCommit              \* The transaction is committed by the TM.
 
 =============================================================================
 \* Modification History
-\* Last modified Sun Apr 04 09:42:13 BRT 2021 by felipec
+\* Last modified Sun Apr 04 09:47:23 BRT 2021 by felipec
 \* Created Sat Apr 03 15:07:14 BRT 2021 by felipec
