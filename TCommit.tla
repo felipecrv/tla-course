@@ -39,7 +39,11 @@ TCNext == \E r \in RM : Prepare(r) \/ Decide(r)
 TCConsistent == \A r1, r2 \in RM : ~ /\ rmState[r1] = "aborted"
                                      /\ rmState[r2] = "commited"
 
+TCSpec == TCInit /\ [][TCNext]_rmState
+
+THEOREM TCSpec => [](TCTypeOK /\ TCConsistent)
+
 ===================================================================================
 \* Modification History
-\* Last modified Sat Apr 03 14:19:45 BRT 2021 by felipec
+\* Last modified Mon Apr 05 00:42:24 BRT 2021 by felipec
 \* Created Sat Apr 03 10:13:09 BRT 2021 by felipec
