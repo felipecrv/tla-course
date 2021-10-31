@@ -23,11 +23,11 @@ B == /\ AVar # BVar   \* Pre-condition for receiving.
      /\ AVar' = AVar  \* AVar remains the same.
 
 
-Next == \/ A
-        \/ B
+Next == A \/ B
 
 Spec == Init /\ [][Next]_vars
 
+FairSpec == Spec /\ WF_vars(Next)
 
 =============================================================================
 \* Modification History
